@@ -8,6 +8,9 @@
 	],
 	"license": "GPL-3.0",
 	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
 	"files": [
 		"extensions",
 		"README.md"
