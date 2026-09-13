@@ -15,7 +15,7 @@ Defaults: **100KB / 4000 lines**.
 ```bash
 pi install npm:@cpzombie/pi-tool-limit-bumper
 # or pinned to a version:
-pi install npm:@cpzombie/pi-tool-limit-bumper@0.1.0
+pi install npm:@cpzombie/pi-tool-limit-bumper@1.0.0
 ```
 
 Uninstall:
