@@ -1,0 +1,26 @@
+{
+	"name": "@cpzombie/pi-tool-limit-bumper",
+	"version": "0.1.0",
+	"description": "pi coding agent extension: raises the hardcoded tool output limits (50KB/2000 lines) and re-applies the patch automatically after pi updates",
+	"keywords": [
+		"pi-package",
+		"pi-extension"
+	],
+	"license": "GPL-3.0",
+	"type": "module",
+	"files": [
+		"extensions",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=22.19.0"
+	},
+	"pi": {
+		"extensions": [
+			"./extensions"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}
